@@ -1,0 +1,36 @@
+query ucMyDMs ($input: ucDMFindAllPageInput) {
+  data: ucMyDMs (input: $input) {    
+    total
+    offset
+    limit
+    data {
+      id
+      receiver {
+        id
+        name
+        phone
+        email
+        address
+        avatar
+        position
+        jobNumber
+        telephone
+        depts
+      }
+      sender {
+        id
+        name
+        phone
+        email
+        address
+        avatar
+        position
+        jobNumber
+        telephone
+        depts
+      }
+      content
+      createTime
+    }
+  }
+}

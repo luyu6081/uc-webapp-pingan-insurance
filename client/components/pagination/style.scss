@@ -1,0 +1,33 @@
+
+.app-pagination {
+  $border-color: #d9d9d9;
+
+  /* override element-ui's style */
+
+  .btn-prev,
+  .btn-next,
+  .number {
+    box-sizing: border-box;
+    width: 24px;
+    min-width: 24px !important;
+    height: 24px;
+    line-height: 24px;
+    font-size: 14px;
+    border-radius: 4px !important;
+    background: theme('colors.white') !important;
+    margin: 0 4px !important;
+
+    &.active:hover {
+      color: #ffffff !important;
+    }
+
+    &:hover {
+      color: #477DE9 !important;
+    }
+  }
+
+  .number.active {
+    border-color: transparent;
+    background: theme('colors.blue.default') !important;
+  }
+}

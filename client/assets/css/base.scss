@@ -1,0 +1,43 @@
+@tailwind base;
+
+/*a 标签初始化*/
+.el-button, a {
+  &:focus {
+    outline: none;
+  }
+}
+
+#__nuxt, #__layout, body, html {
+  @apply h-screen font-sans antialiased;
+
+  font-size: 14px;
+  background-color: #F4F4F4;
+  min-height: 100vh;
+}
+
+em, i {
+  @apply not-italic;
+}
+
+svg {
+  @apply fill-current;
+}
+
+@tailwind utilities;
+
+.filter {
+  background-color: #FAFAFA;
+  padding: 7px 15px 7px 15px;
+  margin: 0 24px 15px 24px;
+
+  .ej-search-input > .el-input__inner {
+    border-radius: 4px;
+  }
+}
+
+.empty-wrap {
+  text-align: center;
+  min-height: 300px;
+  line-height: 300px;
+  color: #999999;
+}

@@ -1,0 +1,17 @@
+query noticeList ($input: CsObjectDTO) {
+  data: csSelectAllUnreadByAppKey (input: $input) {    
+    appKey
+    title
+    objectId
+    objectDesc
+    objectType
+    tenantId
+    userId
+    unreadCount
+    unEmptiedCount
+    message
+    redirectUrl
+    createTime
+    updateTime
+  }
+}

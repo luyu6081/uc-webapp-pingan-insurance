@@ -1,0 +1,42 @@
+query selectUserInfo($input: [ID!]!) {
+  data: selectUserByUserId (input: $input) {
+    userId
+    username
+    password
+    name
+    phoneNumber
+    email
+    fixedPhoneNumber
+    faxNumber
+    enabled
+    jobNumber
+    userSex
+    userBirthday
+    position
+    title
+    personalSignature
+    outsourcingCompany
+    outsourcingPhone
+    userAvatar
+    userAddress
+    roles {
+      id
+      roleName
+    }
+    organizations {
+      organizationId
+      organizationName
+    }
+    groups {
+      groupId
+      groupName
+    }
+    userInfoVOS {
+      contact
+      information
+      infoDesc
+      isPrimary
+    }
+    permissionCodes
+  }
+}

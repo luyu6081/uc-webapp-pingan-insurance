@@ -1,0 +1,4 @@
+# 私信设置已读
+mutation ucSetToReads ($input: [ID!]!) {
+  data: ucSetToReads (input: $input)
+}

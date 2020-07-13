@@ -1,0 +1,11 @@
+{
+  "NUXT_ENV_MAIN_HTTP_ENDPOINT": "http://mds-all-frontier.dev.jinxin.cloud/graphql",
+  "NUXT_ENV_AUTH_HTTP_ENDPOINT": "http://auth-frontier.dev.jinxin.cloud/graphql",
+  "NUXT_ENV_LOGIN_URL": "http://login-daxing.dev.jinxin.cloud",
+  "NUXT_ENV_AUTH_FRONTIER_HTTP": "http://auth-frontier.dev.jinxin.cloud/",
+  "NUXT_ENV_MDS_URL": "http://mds.dev.jinxin.cloud/",
+  "NUXT_ENV_DQS_URL": "http://dqs.dev.jinxin.cloud/",
+  "NUXT_ENV_DS_URL": "http://ds.dev.jinxin.cloud/",
+  "NUXT_ENV_SAMS_URL": "http://sams.dev.jinxin.cloud/",
+  "NUXT_ENV_D4A_URL": "http://d4a.dev.jinxin.cloud/"
+}

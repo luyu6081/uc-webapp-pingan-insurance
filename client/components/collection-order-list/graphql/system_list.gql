@@ -1,0 +1,7 @@
+query systemList ($input: AuthSystemInput) {
+  data: selectAllSystem (input: $input) {
+    appName
+    systemName
+    systemDesc
+  }
+}

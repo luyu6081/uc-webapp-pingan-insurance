@@ -1,0 +1,4 @@
+# 用户修改
+mutation updateUser ($input: OauthSaveUserDTO!) {
+  data: updateOauthUser (input: $input)
+}

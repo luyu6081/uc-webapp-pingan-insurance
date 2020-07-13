@@ -1,0 +1,4 @@
+# 私信删除
+mutation ucDelDMs ($input: [ID!]!) {
+  data: ucDelDMs (input: $input)
+}

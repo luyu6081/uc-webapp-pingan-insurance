@@ -1,0 +1,8 @@
+# 头像删除
+mutation deleteAmbryById ($ambryId: String) {
+  data: deleteAmbryById (ambryId: $ambryId) {
+    code
+    status
+    message
+  }
+}

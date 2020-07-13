@@ -1,0 +1,10 @@
+[submodule "ej-ui"]
+	path = externals/ej-ui
+	url = git@gitlab.com:ejresearch/infra_front/ej-ui.git
+	branch = dev
+[submodule "ej-eslint-config"]
+	path = externals/ej-eslint-config
+	url = git@gitlab.com:ejresearch/infra_front/ej-eslint-config.git
+[submodule "ej-app-nuxt-module"]
+	path = externals/ej-app-nuxt-module
+	url = git@gitlab.com:ejresearch/infra_front/ej-app-nuxt-module.git

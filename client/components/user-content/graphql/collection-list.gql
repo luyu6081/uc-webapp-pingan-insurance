@@ -1,0 +1,87 @@
+query collectionOderList ($input: CollectSubscribeInput) {
+  data: selectCollectSubscribes (input: $input) {
+    subscribeCount
+    collectCount
+    browseCount
+    dqsSchedules {
+      id
+      name
+      desc
+      tags {
+        tagName
+      }
+      techLinkman {
+        address
+        avatar
+        depts
+        email
+        id
+        jobNumber
+        name
+        phone
+        position
+        telephone
+      }
+      busiLinkman {
+        address
+        avatar
+        depts
+        email
+        id
+        jobNumber
+        name
+        phone
+        position
+        telephone
+      }
+      workFlowTotal
+      taskRunTime
+      modifyTm
+      target {
+        applyName
+        systemName
+        databaseName
+        tableName
+      }
+    }
+    mdsObjectVo {
+      id
+      name
+      chineseName
+      techLinkman {
+        address
+        avatar
+        depts
+        email
+        id
+        jobNumber
+        name
+        phone
+        position
+        telephone
+      }
+      busiLinkman {
+        address
+        avatar
+        depts
+        email
+        id
+        jobNumber
+        name
+        phone
+        position
+        telephone
+      }
+      description
+      createDate
+      belongSystem
+      createTm
+      modifyTm
+      tags {
+        tagName
+      }
+      assetsLevel
+      d4aSafetyRank
+    }
+  }
+}

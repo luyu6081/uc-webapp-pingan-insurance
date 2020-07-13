@@ -1,0 +1,17 @@
+query messageList ($input: CsObjectDTO) {
+  data: csSelectAllUnreadByAppKey (input: $input) {    
+    appKey
+    title
+    objectId
+    objectDesc
+    collectTypeEnum
+    tenantId
+    userId
+    unreadCount
+    unEmptiedCount
+    message
+    redirectUrl
+    createTime
+    updateTime
+  }
+}
